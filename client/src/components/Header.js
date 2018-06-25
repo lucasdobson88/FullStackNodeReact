@@ -25,17 +25,19 @@ class Header extends Component {
   render(){
     return (
       <nav>
+      <div className="container">
         <div className="nav-wrapper">
-          <Link
-           to={this.props.auth ? "/surveys" : "/"}
-           className="left brand-logo"
-           style={{margin: '0 15px'}}
-          >
-            Emaily
-          </Link>
-          <ul className="right">
-            {this.renderContent()}
-          </ul>
+            <Link
+             to={this.props.auth ? "/surveys" : "/"}
+             className="left brand-logo"
+             style={{}}
+            >
+              Emaily
+            </Link>
+            <ul className="right">
+              {this.renderContent()}
+            </ul>
+          </div>
         </div>
       </nav>
     );
