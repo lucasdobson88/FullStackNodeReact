@@ -7,7 +7,8 @@ const Landing = () => {
       <h2>
         Welcome to Emaily!
       </h2>
-      Collect feedback from your users
+      <p>Collect feedback from your users.</p>
+      <p>Please login to use our services.</p>
     </div>
   );
 }

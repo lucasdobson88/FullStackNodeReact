@@ -35,6 +35,13 @@ class Header extends Component {
               Emaily
             </Link>
             <ul className="right">
+            {this.props.auth &&
+              <li><Link
+               to="/surveys"
+               style={{}}
+              >Surveys</Link></li>
+            }
+
               {this.renderContent()}
             </ul>
           </div>
